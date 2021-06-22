@@ -3,11 +3,13 @@ import './App.css';
 import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Home from "./components/Home";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <div className="App">
         <Home/>
+        <Contact/>
       <Greet/>
         <Welcome/>
     </div>
