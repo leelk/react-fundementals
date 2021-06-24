@@ -4,6 +4,7 @@ import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
+import TableOne from "./components/Table";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <Contact/>
       <Greet/>
         <Welcome/>
+        <TableOne/>
+
     </div>
   );
 }
