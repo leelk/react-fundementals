@@ -4,11 +4,12 @@ import Welcome from "./components/Welcome";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import TableOne from "./components/Table";
+import Message from "./components/Message";
 
 function App() {
     return (
         <div className="App">
-            <Home/>
+            {/*<Home/>
             <Contact/>
             <Greet name="Leel">
                 <p>AKA LEEL KARUNARATHNE</p>
@@ -16,8 +17,9 @@ function App() {
             <Greet name="Sahan"/>
             <Greet name="Heshan"/>
             <Welcome/>
-            <TableOne/>
+            <TableOne/>*/}
 
+            <Message/>
 
         </div>
     );
